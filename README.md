@@ -1,12 +1,8 @@
-This file documents the results of a Vulnerability Assessment Report for a Live Website conducted on http://testphp.vulnweb.com. The Vulnerability Assessment focused on identifying potential security weaknesses within the website. It's important to note that a relatively few vulnerabilities were discovered as this is my first vulnerability assessement on a live website.
+This file documents the results of a Vulnerability Assessment Report for a Live Website conducted on http://testphp.vulnweb.com. This site is an intentionally vulnerable PHP application maintained by Acunetix, used for security training and tool validation. The assessment was performed using Nmap for network reconnaissance, OWASP ZAP for application-layer scanning, and Browser DevTools for header and cookie inspection.
 
-The tools used were :
+The assessment identified 12 vulnerabilities across the application, with three rated Critical severity. These findings reflect the class of issues commonly encountered in real-world web applications and represent genuine security risk if present in a production environment.
 
-Nmap – basic port & exposure analysis
-
-OWASP ZAP (Passive Scan) – identify vulnerabilities without attacking
-
-Browser DevTools – inspect headers, cookies, and client-side issues
+The most severe findings are SQL Injection, Local File Inclusion, and an end-of-life PHP version (5.6), any one of which could individually result in a full database breach or server compromise. The three critical vulnerabilities should be remediated immediately before any other changes are made to the application.
 
 **Disclaimer**
 
