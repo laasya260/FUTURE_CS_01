@@ -6,7 +6,7 @@ This file documents the results of a Vulnerability Assessment Report for a Live 
 
 Nmap – basic port & exposure analysis
 
-OWASP ZAP (Passive Scan) – identify vulnerabilities without attacking
+OWASP ZAP – identify vulnerabilities without attacking
 
 Browser DevTools – inspect headers, cookies, and client-side issues
 
